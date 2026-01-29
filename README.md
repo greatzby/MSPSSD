@@ -46,7 +46,7 @@ src  dst  path_node_0  path_node_1 ... path_node_L
 
 ---
 
-## 3. Step A — Generate a GraphA DAG
+## 3. Generate a GraphA DAG
 
 Script: `data/simple_graph/create_graph.py`  
 Outputs (under `--output_root`):
@@ -84,7 +84,7 @@ GRAPH_DIR="data/graphs/<your_generated_graph_folder>"
 
 ---
 
-## 4. Step B — Generate all-pairs dataset (reachable pairs + sampled paths)
+## 4. Generate all-pairs dataset (reachable pairs + sampled paths)
 
 Script: `data/simple_graph/generate_alpine_allpairs.py`
 
@@ -118,7 +118,7 @@ The dataset directory typically contains:
 
 ---
 
-## 5. Step C — Optional dataset variants
+## 5. Optional dataset variants
 
 ### 5.1 (K=3 only) P13 ratio control (mix P0 and P13 arbitrarily)
 
